@@ -31,7 +31,7 @@ set hlsearch
 set wildmenu
 set clipboard=unnamed " COMPARTE CLIPBOARD CON EL SO
 silent! set wildoptions=pum,tagfile
-set wildmode=longest:full
+set wildmode=longest:full,full
 " set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 silent! colorscheme torte
@@ -39,6 +39,11 @@ silent! colorscheme code-dark
 set matchpairs+=<:>
 set mouse=a
 
+" TABULADOR = 4 ESPACIOS
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 " AUTOCOMPLETAR
 " CERRAR SIGNOS AUTOMATICAMENTE
