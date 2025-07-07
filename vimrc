@@ -30,12 +30,12 @@ set showmatch
 set hlsearch
 set wildmenu
 set clipboard=unnamed " COMPARTE CLIPBOARD CON EL SO
-set wildoptions=pum,tagfile
+silent! set wildoptions=pum,tagfile
 set wildmode=longest:full
 " set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-silent colorscheme torte
-silent colorscheme code-dark
+silent! colorscheme torte
+silent! colorscheme code-dark
 set matchpairs+=<:>
 set mouse=a
 
