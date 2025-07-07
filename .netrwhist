@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/cdefreitas/.vim'
+let g:netrw_dirhist_4='/home/cdefreitas'
+let g:netrw_dirhist_3='/home/cdefreitas/Workspace/scripts/CRUD-SQLite3-PHP-master'
+let g:netrw_dirhist_2='/home/cdefreitas/Workspace/scripts'
+let g:netrw_dirhist_1='/home/cdefreitas/Workspace/scripts/lista'
+let g:netrw_dirhist_0='/home/cdefreitas/Workspace/scripts'
+let g:netrw_dirhist_9='/home/cdefreitas/Workspace/scripts/impress.js'
+let g:netrw_dirhist_8='/home/cdefreitas/Workspace/scripts'
+let g:netrw_dirhist_7='/home/cdefreitas/Workspace/scripts/icons'
+let g:netrw_dirhist_6='/home/cdefreitas/Workspace/scripts'
