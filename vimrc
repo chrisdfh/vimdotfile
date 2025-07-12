@@ -69,7 +69,7 @@ inoremap {<CR> {<CR>}<ESC>O
 " :%s/^/#/        #will comment out all lines in file
 " :vs.
 " :e.
-" :w{flecha}
+" Ctrl+w{flecha} cambiar de ventana
 " :ls
 " :bd
 " :b{number}
