@@ -29,7 +29,7 @@ set cmdheight=2
 set showmatch
 set hlsearch
 set wildmenu
-set clipboard=unnamed " COMPARTE CLIPBOARD CON EL SO
+set clipboard^=unnamedplus " COMPARTE CLIPBOARD CON EL SO
 silent! set wildoptions=pum,tagfile
 set wildmode=longest:full,full
 " set wildmode=list:longest
@@ -47,10 +47,10 @@ set expandtab
 
 " AUTOCOMPLETAR
 " CERRAR SIGNOS AUTOMATICAMENTE
-inoremap ' ''<left>
+inoremap ' ''<left>  ''
 inoremap ` ``<left>
 inoremap " ""<left>
-inoremap ( ()<left>
+inoremap ( ()<left>  ()
 inoremap [ []<left>
 inoremap { {}<left>
 
@@ -61,7 +61,9 @@ inoremap "<CR> "<CR>"<ESC>O
 inoremap (<CR> (<CR>)<ESC>O
 inoremap [<CR> [<CR>]<ESC>O
 inoremap {<CR> {<CR>}<ESC>O
-
+"if has('gui_running')
+    nnoremap <esc> :noh<return><ESC>
+"end
 " IN INSERT MODE, CONTROL-X, CONTROL-O
 
 " Ctrl-v Shift-I 
@@ -69,6 +71,7 @@ inoremap {<CR> {<CR>}<ESC>O
 " :%s/^/#/        #will comment out all lines in file
 " :vs.
 " :e.
+" "+y copia al portapapeles del sistema
 " Ctrl+w{flecha} cambiar de ventana
 " :ls
 " :bd
